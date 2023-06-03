@@ -8,6 +8,6 @@ import com.mamunsproject.unsplashapi_jetpackcompose.util.Constantss.UNSPLASH_REM
 data class UnsplashRemoteKeys(
     @PrimaryKey(autoGenerate = true)
     val id: String,
-    val prevPage: Int,
-    val nextPage: Int
+    val prevPage: Int?,
+    val nextPage: Int?
 )
